@@ -1,0 +1,337 @@
+<resources>
+    <!-- Translator Tab Menu -->
+    <string name="deepl">DeepL</string>
+    <string name="url_deepl" translatable="false">https://www.deepl.com/translator#?/</string>
+
+    <string name="google_translate">Google</string>
+    <string name="url_google_translate" translatable="false">https://translate.google.com/#view=home&amp;op=translate&amp;sl=auto&amp;tl=</string>
+
+    <string name="urban_dictionary">Urban Dictionary</string>
+    <string name="url_urban_dictionary" translatable="false">https://www.urbandictionary.com/define.php?term=</string>
+
+    <string name="jikipedia">jikipedia</string>
+    <string name="url_jikipedia" translatable="false">https://jikipedia.com/search?phrase=</string>
+
+    <string-array name="translator_tab_title">
+        <item>@string/deepl</item>
+        <item>@string/google_translate</item>
+        <item>@string/urban_dictionary</item>
+        <item>@string/jikipedia</item>
+    </string-array>
+
+    <string-array name="translator_url">
+        <item>@string/url_deepl</item>
+        <item>@string/url_google_translate</item>
+        <item>@string/url_urban_dictionary</item>
+        <item>@string/url_jikipedia</item>
+    </string-array>
+
+    <!-- MetaSearch Tab Menu -->
+    <string name="web">Web</string>
+    <string name="searx">Searx</string>
+    <string name="twitter">Twitter</string>
+    <string name="reddit">Reddit</string>
+    <string name="youtube">Youtube</string>
+    <string name="custom">Custom</string>
+
+    <string-array name="meta_search_tab_title">
+        <item>@string/web</item>
+        <item>@string/searx</item>
+        <item>@string/twitter</item>
+        <item>@string/reddit</item>
+        <item>@string/youtube</item>
+        <item>@string/custom</item>
+    </string-array>
+
+    <string-array name="meta_search_tab_id">
+        <item>web_tab</item>
+        <item>searx_tab</item>
+        <item>twitter_tab</item>
+        <item>reddit_tab</item>
+        <item>youtube_tab</item>
+        <item>custom_tab</item>
+    </string-array>
+
+    <string-array name="meta_search_url">
+        <item>@string/url_duck</item>
+        <item>@string/url_searx_1</item>
+        <item>@string/url_twitter</item>
+        <item>@string/url_reddit</item>
+        <item>@string/url_youtube</item>
+        <item>@string/url_custom</item>
+    </string-array>
+
+    <!-- Web Search Engines-->
+    <string name="title_duck">🇺🇸 DuckDuckGo</string>
+    <string name="url_duck" translatable="false">https://duckduckgo.com/?q=</string>
+
+    <string name="title_qwant">🇫🇷 Qwant</string>
+    <string name="url_qwant" translatable="false">https://www.qwant.com/?q=</string>
+
+    <string name="title_mojeek">🇬🇧 Mojeek</string>
+    <string name="url_mojeek" translatable="false">https://mojeek.com/search?q=</string>
+
+    <string name="title_brave">🇺🇸 Brave</string>
+    <string name="url_brave" translatable="false">https://search.brave.com/search?q=</string>
+
+    <string name="title_ecosia">🇩🇪 Escosia 🌲</string>
+    <string name="url_ecosia" translatable="false">https://ecosia.org/search?q=</string>
+
+    <string name="title_swisscows">🇨🇭 Swisscows</string>
+    <string name="url_swisscows" translatable="false">https://swisscows.com/web?query=</string>
+
+    <string name="title_whoogle_0">🇺🇸 whoogle [Official]</string>
+    <string name="url_whoogle_0" translatable="false">https://whoogle.fossho.st/search?q=</string>
+
+    <string name="title_whoogle_1">🇩🇪 whoogle-seth</string>
+    <string name="url_whoogle_1" translatable="false">https://search.sethforprivacy.com/search?q=</string>
+
+    <string name="title_whoogle_2">🔀 whoogle-farside</string>
+    <string name="url_whoogle_2" translatable="false">https://farside.link/whoogle/search?q=</string>
+
+    <string name="title_StartPage">🇳🇱 StartPage</string>
+    <string name="url_StartPage" translatable="false">https://www.startpage.com/do/dsearch?query=</string>
+
+    <string name="title_google">🇺🇸 Google</string>
+    <string name="url_google" translatable="false">https://google.com/search?q=</string>
+
+    <string name="title_bing">🇺🇸 Bing</string>
+    <string name="url_bing" translatable="false">https://bing.com/search?q=</string>
+
+    <string-array name="web_search_engine_entries">
+        <item>@string/title_duck</item>
+        <item>@string/title_qwant</item>
+        <item>@string/title_mojeek</item>
+        <item>@string/title_brave</item>
+        <item>@string/title_ecosia</item>
+        <item>@string/title_swisscows</item>
+        <item>@string/title_whoogle_0</item>
+        <item>@string/title_whoogle_1</item>
+        <item>@string/title_whoogle_2</item>
+        <item>@string/title_StartPage</item>
+        <item>@string/title_google</item>
+        <item>@string/title_bing</item>
+    </string-array>
+
+    <string-array name="web_search_engine_values">
+        <item>@string/url_duck</item>
+        <item>@string/url_qwant</item>
+        <item>@string/url_mojeek</item>
+        <item>@string/url_brave</item>
+        <item>@string/url_ecosia</item>
+        <item>@string/url_swisscows</item>
+        <item>@string/url_whoogle_0</item>
+        <item>@string/url_whoogle_1</item>
+        <item>@string/url_whoogle_2</item>
+        <item>@string/url_StartPage</item>
+        <item>@string/url_google</item>
+        <item>@string/url_bing</item>
+    </string-array>
+
+    <!-- Searx instence -->
+    <string name="title_searx_1" translatable="false">🇩🇪 Searx (Snopyta)</string>
+    <string name="url_searx_1" translatable="false">https://search.snopyta.org/search?q=</string>
+
+    <string name="title_searx_2" translatable="false">🇳🇱 Searx (Disroot)</string>
+    <string name="url_searx_2" translatable="false">https://search.disroot.org/search?q=</string>
+
+    <string name="title_searx_3" translatable="false">🇺🇸 Searx (NixNet)</string>
+    <string name="url_searx_3" translatable="false">https://searx.nixnet.services/search?q=</string>
+
+    <string name="title_searx_4" translatable="false">🇫🇷 Searx (/e/ Foundation)</string>
+    <string name="url_searx_4" translatable="false">https://spot.ecloud.global/search?q=</string>
+
+    <string name="title_searx_5" translatable="false">🇩🇪 searx.prvcy.eu</string>
+    <string name="url_searx_5" translatable="false">https://searx.prvcy.eu/search?q=</string>
+
+    <string name="title_searx_6" translatable="false">🔀 searx-farsid</string>
+    <string name="url_searx_6" translatable="false">https://farside.link/searx/search?q=</string>
+
+    <string-array name="searx_search_engine_entries">
+        <item>@string/title_searx_1</item>
+        <item>@string/title_searx_2</item>
+        <item>@string/title_searx_3</item>
+        <item>@string/title_searx_4</item>
+        <item>@string/title_searx_5</item>
+        <item>@string/title_searx_6</item>
+    </string-array>
+
+    <string-array name="searx_search_engine_values">
+        <item>@string/url_searx_1</item>
+        <item>@string/url_searx_2</item>
+        <item>@string/url_searx_3</item>
+        <item>@string/url_searx_4</item>
+        <item>@string/url_searx_5</item>
+        <item>@string/url_searx_6</item>
+    </string-array>
+
+    <!-- Twitter instence-->
+    <string name="title_twitter" translatable="false">🇺🇸 twitter.com</string>
+    <string name="url_twitter" translatable="false">https://twitter.com/search?q=</string>
+
+    <string name="title_nitter_0" translatable="false">🇩🇪 nitter (Official)</string>
+    <string name="url_nitter_0" translatable="false">https://nitter.net/search?q=</string>
+
+    <string name="title_nitter_1" translatable="false">🇩🇪 nitter.snopyta.org</string>
+    <string name="url_nitter_1" translatable="false">https://nitter.snopyta.org/search?q=</string>
+
+    <string name="title_nitter_2" translatable="false">🇩🇪 nitter.pussthecat.org</string>
+    <string name="url_nitter_2" translatable="false">https://nitter.pussthecat.org/search?q=</string>
+
+    <string name="title_nitter_3" translatable="false">🇮🇳 nitter.kavin.rocks (C)</string>
+    <string name="url_nitter_3" translatable="false">https://nitter.kavin.rocks/search?q=</string>
+
+    <string name="title_nitter_4" translatable="false">🇫🇷 nitter.42l.fr</string>
+    <string name="url_nitter_4" translatable="false">https://nitter.42l.fr/search?q=</string>
+
+    <string name="title_nitter_5" translatable="false">🇨🇦 nitter.ca</string>
+    <string name="url_nitter_5" translatable="false">https://nitter.ca/search?q=</string>
+
+    <string name="title_nitter_6" translatable="false">🇩🇪 nitter.namazso.eu</string>
+    <string name="url_nitter_6" translatable="false">https://nitter.namazso.eu/search?q=</string>
+
+    <string name="title_nitter_7" translatable="false">🇫🇮 nitter.eu</string>
+    <string name="url_nitter_7" translatable="false">https://nitter.eu/search?q=</string>
+
+    <string name="title_nitter_8" translatable="false">🇩🇪 nitter.nixnet.services</string>
+    <string name="url_nitter_8" translatable="false">https://nitter.nixnet.services/search?q=</string>
+
+    <string name="title_nitter_9" translatable="false">🔀 nitter-farside</string>
+    <string name="url_nitter_9" translatable="false">https://farside.link/nitter/search?q=</string>
+
+    <string-array name="twitter_search_engine_entries">
+        <item>@string/title_twitter</item>
+        <item>@string/title_nitter_0</item>
+        <item>@string/title_nitter_1</item>
+        <item>@string/title_nitter_2</item>
+        <item>@string/title_nitter_3</item>
+        <item>@string/title_nitter_4</item>
+        <item>@string/title_nitter_5</item>
+        <item>@string/title_nitter_6</item>
+        <item>@string/title_nitter_7</item>
+        <item>@string/title_nitter_8</item>
+        <item>@string/title_nitter_9</item>
+    </string-array>
+
+    <string-array name="twitter_search_engine_values">
+        <item>@string/url_twitter</item>
+        <item>@string/url_nitter_0</item>
+        <item>@string/url_nitter_1</item>
+        <item>@string/url_nitter_2</item>
+        <item>@string/url_nitter_3</item>
+        <item>@string/url_nitter_4</item>
+        <item>@string/url_nitter_5</item>
+        <item>@string/url_nitter_6</item>
+        <item>@string/url_nitter_7</item>
+        <item>@string/url_nitter_8</item>
+        <item>@string/url_nitter_9</item>
+    </string-array>
+
+    <!-- Reddit instence-->
+    <string name="title_reddit">🇺🇸 reddit.com</string>
+    <string name="url_reddit" translatable="false">https://www.reddit.com/search/?q=</string>
+
+    <string name="title_reddit_old">🇺🇸 old.reddit.com</string>
+    <string name="url_reddit_old" translatable="false">https://old.reddit.com/search/?q=</string>
+
+    <string name="title_libreddit_0">🇺🇸 libredd.it (Official)</string>
+    <string name="url_libreddit_0" translatable="false">https://libredd.it/r/all/search?q=</string>
+
+    <string name="title_libreddit_1">🇮🇳 libreddit.kavin.rocks (C)</string>
+    <string name="url_libreddit_1" translatable="false">https://libreddit.kavin.rocks/r/all/search?q=</string>
+
+    <string name="title_libreddit_2">🇫🇮 libreddit.silkky.cloud (C)</string>
+    <string name="url_libreddit_2" translatable="false">https://libreddit.silkky.cloud/r/all/search?q=</string>
+
+    <string name="title_libreddit_3">🇩🇪 reddit.stuehieyr.com</string>
+    <string name="url_libreddit_3" translatable="false">https://reddit.stuehieyr.com/r/all/search?q=</string>
+
+    <string name="title_teddit_0">teddit.net (Official)</string>
+    <string name="url_teddit_0" translatable="false">https://teddit.net/r/all/search?q=</string>
+
+    <string name="title_teddit_1">🇮🇳 teddit.kavin.rocks (C)</string>
+    <string name="url_teddit_1" translatable="false">https://teddit.kavin.rocks/search?q=</string>
+
+    <string name="title_teddit_2">🇩🇪 teddit.ggc-project.de (C)</string>
+    <string name="url_teddit_2" translatable="false">https://teddit.ggc-project.de/search?q=</string>
+
+    <string-array name="reddit_search_engine_entries">
+        <item>@string/title_reddit</item>
+        <item>@string/title_reddit_old</item>
+        <item>@string/title_libreddit_0</item>
+        <item>@string/title_libreddit_1</item>
+        <item>@string/title_libreddit_2</item>
+        <item>@string/title_libreddit_3</item>
+        <item>@string/title_teddit_0</item>
+        <item>@string/title_teddit_1</item>
+        <item>@string/title_teddit_2</item>
+    </string-array>
+
+    <string-array name="reddit_search_engine_values">
+        <item>@string/url_reddit</item>
+        <item>@string/url_reddit_old</item>
+        <item>@string/url_libreddit_0</item>
+        <item>@string/url_libreddit_1</item>
+        <item>@string/url_libreddit_2</item>
+        <item>@string/url_libreddit_3</item>
+        <item>@string/url_teddit_0</item>
+        <item>@string/url_teddit_1</item>
+        <item>@string/url_teddit_2</item>
+    </string-array>
+
+    <!-- Youtube instence -->
+    <string name="title_youtube">🇺🇸 youtube.com</string>
+    <string name="url_youtube" translatable="false">https://www.youtube.com/results?q=</string>
+
+    <string name="title_piped_0">🇮🇳 piped [C] (Official)</string>
+    <string name="url_piped_0" translatable="false">https://piped.kavin.rocks/results?search_query=</string>
+
+    <string name="title_piped_1">🇫🇮 piped.silkky.cloud [C]</string>
+    <string name="url_piped_1" translatable="false">https://piped.silkky.cloud/results?search_query=</string>
+
+    <string name="title_piped_2">🇫🇮 piped.jae.fi</string>
+    <string name="url_piped_2" translatable="false">https://piped.jae.fi/results?search_query=</string>
+
+    <string name="title_invidious_1">🇫🇮 invidious.snopyta.org</string>
+    <string name="url_invidious_1" translatable="false">https://invidious.snopyta.org/search?q=</string>
+
+    <string name="title_invidious_2">🇺🇸 vid.puffyan.us</string>
+    <string name="url_invidious_2" translatable="false">https://vid.puffyan.us/search?q=</string>
+
+    <string name="title_invidious_3">🇩🇪 invidious.namazso.eu</string>
+    <string name="url_invidious_3" translatable="false">https://invidious.namazso.eu/search?q=</string>
+
+    <string name="title_invidious_4">🇩🇪 invidio.xamh.de</string>
+    <string name="url_invidious_4" translatable="false">https://invidio.xamh.de/search?q=</string>
+
+    <string name="title_invidious_5">🇳🇱 invidious.hub.ne.kr</string>
+    <string name="url_invidious_5" translatable="false">https://invidious.hub.ne.kr/search?q=</string>
+
+    <string-array name="youtube_search_engine_entries">
+        <item>@string/title_youtube</item>
+        <item>@string/title_piped_0</item>
+        <item>@string/title_piped_1</item>
+        <item>@string/title_piped_2</item>
+        <item>@string/title_invidious_1</item>
+        <item>@string/title_invidious_2</item>
+        <item>@string/title_invidious_3</item>
+        <item>@string/title_invidious_4</item>
+        <item>@string/title_invidious_5</item>
+    </string-array>
+
+    <string-array name="youtube_search_engine_values">
+        <item>@string/url_youtube</item>
+        <item>@string/url_piped_0</item>
+        <item>@string/url_piped_1</item>
+        <item>@string/url_piped_2</item>
+        <item>@string/url_invidious_1</item>
+        <item>@string/url_invidious_2</item>
+        <item>@string/url_invidious_3</item>
+        <item>@string/url_invidious_4</item>
+        <item>@string/url_invidious_5</item>
+    </string-array>
+
+    <!-- Custom Search engine-->
+    <string name="url_custom" translatable="false">https://github.com/search?q=</string>
+
+</resources>

@@ -1,0 +1,10 @@
+* update Setter base
+	* add dark mode
+	* remove all cookies after close
+	* other improvements
+* added 'search in default browser' option back (removed from setter base)
+* Better UI
+	* add setting button
+* clear cache 
+* clean up code
+* other improvements

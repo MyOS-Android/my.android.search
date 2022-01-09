@@ -1,0 +1,7 @@
+* update Setter base
+  * upgrade libraries
+  * use single instance launch mode
+  * handle Intent.ACTION_SEND
+* rename `DirectSearchActivity.kt` to `MainActivity.kt`
+* add option to select image from MainActivity
+* link to Search preferences from Android System

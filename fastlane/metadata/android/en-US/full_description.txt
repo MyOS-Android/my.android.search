@@ -1,0 +1,4 @@
+This is a fork of <a href="https://f-droid.org/en/packages/site.leos.setter">Setter</a> that brings major enhancements like:
+* Handle Android ACTION_WEB_SEARCH
+* User can add a Costume Search Engine
+* Add privacy friendly alternatives front-end (whoogle , searx , nitter , libredd , teddit , invidious)

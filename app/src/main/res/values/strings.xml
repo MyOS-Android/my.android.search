@@ -1,0 +1,82 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">Search</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
+    <string name="dict_name">Look up</string>
+    <string name="metasearch_name">Meta Search</string>
+    <string name="reverseimagesearch_name">Image Search</string>
+
+    <!-- Reverse Image Search -->
+    <string name="sogou">Sogou</string>
+    <string name="pailitao">Pailitao</string>
+
+    <!-- Direct Search -->
+    <string name="search_choice">Search</string>
+    <string name="translation_choice">Translate</string>
+    <string name="image_choice">Image</string>
+    <string name="edit_search_hint">Search phrase or URL</string>
+    <string name="edit_translate_hint">Translate word or sentence</string>
+    <string name="select_image">Select Image</string>
+    <string name="meta_search_choice">Meta Search</string>
+    <string name="browser_search_choice">Default Browser</string>
+
+    <!-- Context Menu -->
+    <string name="menuitem_view_hyperlink">Open in App</string>
+    <string name="menuitem_share_hyperlink">Share link to</string>
+    <string name="menuitem_copy_hyperlink">Copy link</string>
+    <string name="menuitem_download_image">Download image</string>
+    <string name="menuitem_search_image">Reverse search image</string>
+    <string name="menuitem_browser">Open in Browser</string>
+
+    <!-- Setting -->
+    <!-- General Setting -->
+    <string name="general_header">General</string>
+
+    <string name="set_as_assistant_key" translatable="false">DEFAULT_ASSISTANT</string>
+    <string name="set_as_assistant_title">Set as default assistant app</string>
+    <string name="set_as_assistant_summary">Allow Search launched on any screen</string>
+
+    <string name="add_widget_key" translatable="false">ADD_WIDGET</string>
+    <string name="add_widget_title">Add widget on home screen</string>
+    <string name="add_widget_summary">Launch Search from home screen</string>
+
+    <string name="remove_cookie_key" translatable="false">REMOVE_COOKIES</string>
+    <string name="remove_cookie_title">Remove All Cookies</string>
+    <string name="remove_cookie_summary">Remove all cookies when Search is closed</string>
+
+    <!-- Translator Setting -->
+    <string name="translator_header">Translator Setting</string>
+
+    <string name="install_colordict_key" translatable="false">install_colordict</string>
+    <string name="colordict_not_installed">Install ColorDict app</string>
+    <string name="colordict_intro">An offline dictionary app, respect privacy. Support stardict format dictionaries.</string>
+
+    <string name="colordict_fullscreen_key" translatable="false">fullscreen</string>
+    <string name="colordict_fullscreen_title">ColorDict run in full screen</string>
+
+    <!-- Search Setting -->
+    <string name="search_engine_header">Meta Search Setting</string>
+    <!-- Meta Search Setting -->
+    <string name="meta_search_title">Meta Search</string>
+    <string name="meta_search_key" translatable="false">META_SEARCH</string>
+    <!-- Default Search Engine -->
+    <string name="meta_search_web_engine_title">Default Search Engine</string>
+    <string name="search_engine_key" translatable="false">WEB_SEARCH_ENGINE</string>
+    <!-- SearX Search Engine -->
+    <string name="searx_meta_search_web_engine_title">SearX Instance</string>
+    <string name="searx_search_engine_key" translatable="false">SEARX_WEB_SEARCH_ENGINE</string>
+    <!-- Twitter Search Engine -->
+    <string name="twitter_meta_search_web_engine_title">Twitter Instance</string>
+    <string name="twitter_search_engine_key" translatable="false">TWITTER_WEB_SEARCH_ENGINE</string>
+    <!-- Reddit Search Engine -->
+    <string name="reddit_meta_search_web_engine_title">Reddit Instance</string>
+    <string name="reddit_search_engine_key" translatable="false">REDDIT_WEB_SEARCH_ENGINE</string>
+    <!-- Youtube Search Engine -->
+    <string name="youtube_meta_search_web_engine_title">Youtube Instance</string>
+    <string name="youtube_search_engine_key" translatable="false">YOUTUBE_WEB_SEARCH_ENGINE</string>
+    <!-- Custom Search Engine -->
+    <string name="custom_meta_search_web_engine_title">Custom Search Engine</string>
+    <string name="custom_search_engine_key" translatable="false">CUSTOM_WEB_SEARCH_ENGINE</string>
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.button.MaterialButtonToggleGroup
+        android:id="@+id/search_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="32dp"
+        app:singleSelection="true"
+        app:selectionRequired="true"
+        app:checkedButton="@+id/search">
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?attr/materialButtonOutlinedStyle"
+            android:textAllCaps="false"
+            android:text="@string/search_choice" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/translate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?attr/materialButtonOutlinedStyle"
+            android:textAllCaps="false"
+            android:text="@string/translation_choice" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/image_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="?attr/materialButtonOutlinedStyle"
+            android:textAllCaps="false"
+            android:text="@string/image_choice" />
+    </com.google.android.material.button.MaterialButtonToggleGroup>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:hint="@string/edit_search_hint"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_query"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionSearch"
+            android:inputType="textAutoComplete"/>
+        <RadioGroup
+            android:id="@+id/metasearch_type"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="24dp">
+
+            <RadioButton
+                android:id="@+id/metasearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:buttonTint="@color/colorPrimary"
+                android:text="@string/meta_search_choice"/>
+
+            <RadioButton
+                android:id="@+id/browser_query"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorPrimary"
+                android:layout_weight="1"
+                android:text="@string/browser_search_choice"/>
+        </RadioGroup>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/select_image"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        style="?attr/materialButtonStyle"
+        android:textAllCaps="true"
+        android:text="@string/select_image" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/searchbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        style="?attr/materialButtonStyle"
+        android:textAllCaps="true"
+        android:text="@string/search" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/settingsbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        style="?attr/materialButtonOutlinedStyle"
+        android:textAllCaps="true"
+        android:text="@string/settings" />
+</LinearLayout>
